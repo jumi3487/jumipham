@@ -1,0 +1,58 @@
+.footer {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+font-size: var(--huge);
+font-style: normal;
+font-weight: 400;
+margin: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.email {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+.copyrightLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Limit the content width */
+    margin: 0 auto; /* Center the content horizontally */
+    flex-wrap: wrap; /* Make links wrap on smaller screens */
+}
+.copyrightLinks p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .copyrightLinks div {
+    display: flex;
+    gap: 20px; /* Space between links */
+  }
+
+  .link {
+    text-decoration: none;
+    color: var(--white); /* Use white color for links */
+    font-size: 14px;
+  }
+  
+  .link:hover {
+    text-decoration: underline; /* Change color on hover */
+  }
