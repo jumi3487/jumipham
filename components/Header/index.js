@@ -16,7 +16,7 @@ export default function Header(){
           <p className="active">Home</p>
         </section>
         <section>
-          <p>Projects</p>
+          <p>Works</p>
         </section>
         <section>
           <p>About</p>
