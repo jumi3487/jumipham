@@ -1,37 +1,119 @@
 const projects = [
-    {
-      id: 0,
-      name: "Beep",
-      date: "Sep – Dec 2024",
-      image: "/images/beep-thumbnail.png",
-      width: 680,
-      height: 386.36
-    },
-    {
-      id: 1,
-      name: "Lunette",
-      date: "Nov – Dec 2023",
-      image: "/images/lunette_thumbnail.png",
-      width: 450.5,
-      height: 386.36
-    },
-    {
-      id: 2,
-      name: "ArtFlow",
-      date: "Jan – May 2024",
-      image: "/images/artflow-thumbnail.png",
-      width: 564.09,
-      height: 386.36
-    },
-    {
-      id: 3,
-      name: "The Starfruit Tree (E-book)",
-      date: "Nov – Dec 2024",
-      image: "/images/starfruit-thumbnail.png",
-      width: 564.09,
-      height: 386.36
-    },
-  ];
-  
-  export default projects;
-  
+  {
+    id: 0,
+    title: "Beep",
+    name: "Beep",
+    date: "Sep – Dec 2024",
+    image: "/images/beep-thumbnail.png",
+    width: 680,
+    height: 386.36,
+    category: "Projects",
+  },
+  {
+    id: 1,
+    title: "Lunette",
+    name: "Lunette",
+    date: "Nov – Dec 2023",
+    image: "/images/lunette_thumbnail.png",
+    width: 450.5,
+    height: 386.36,
+    category: "Projects",
+  },
+  {
+    id: 2,
+    title: "ArtFlow",
+    name: "ArtFlow",
+    date: "Jan – May 2024",
+    image: "/images/artflow-thumbnail.png",
+    width: 564.09,
+    height: 386.36,
+    category: "Projects",
+  },
+  {
+    id: 3,
+    title: "TheStarfruitTree",
+    name: "The Starfruit Tree (E-book)",
+    date: "Nov – Dec 2024",
+    image: "/images/starfruit-thumbnail.png",
+    width: 564.09,
+    height: 386.36,
+    category: "Projects",
+  },
+
+  // 🔹 Graphic Design
+  {
+    id: 4,
+    title: "Illustration",
+    name: "Illustration",
+    date: "2 Weeks",
+    image: "/images/illustration.png",
+    width: 680,
+    height: 386.36,
+    category: "Graphic Designs",
+  },
+  {
+    id: 5,
+    title: "MechanicIllustration",
+    name: "Mechanic Illustration",
+    date: "2 Weeks",
+    image: "/images/mechanic-illustration.png",
+    width: 450.5,
+    height: 386.36,
+    category: "Graphic Designs",
+  },
+  {
+    id: 6,
+    title: "Sparkly",
+    name: "Sparkly",
+    date: "3 Weeks",
+    image: "/images/sparkly.png",
+    width: 564.09,
+    height: 386.36,
+    category: "Graphic Designs",
+  },
+  {
+    id: 7,
+    title: "MenuDesign",
+    name: "Menu Design",
+    date: "Nov – Dec 2024",
+    image: "/images/menu.png",
+    width: 564.09,
+    height: 386.36,
+    category: "Graphic Designs",
+  },
+
+  // 🔹 Motion Graphics
+  {
+    id: 8,
+    title: "HowToMakeFrenchFries?",
+    name: "How To Make French Fries?",
+    date: "February - March 2024",
+    image: "/images/french-fries.png",
+    width: 564.09,
+    height: 386.36,
+    category: "Motion Graphics",
+  },
+  {
+    id: 9,
+    title: "FiveLayersOfOcean",
+    name: "Five Layers Of Ocean",
+    date: "March - May 2024",
+    image: "/images/five-layers.png",
+    width: 564.09,
+    height: 386.36,
+    category: "Motion Graphics",
+  },
+
+  // 🔹 Others (Added Missing Category)
+  {
+    id: 10,
+    name: "Photography Portfolio",
+    date: "Oct – Nov 2024",
+    image: "/images/photo-portfolio.png",
+    width: 564.09,
+    height: 386.36,
+    category: "Others",
+  },
+];
+
+export default projects;

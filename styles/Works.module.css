@@ -2,7 +2,7 @@
   font-family: Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  margin: 0 35px 0 35px;
+  margin: 0;
 
 }
 .container {
@@ -13,8 +13,8 @@
   flex-direction: column;
   gap: 100px;
   margin-top: 110px;
-  margin-left: 73.5px;
-  margin-right: 73.5px;
+  margin-left: 130px;
+  margin-right: 120px;
 }
 
 .header {

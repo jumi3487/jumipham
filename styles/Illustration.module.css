@@ -1,0 +1,98 @@
+.body {
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+}
+
+.infoContainer {
+    max-width: 1437px;
+    width: 100%;
+}
+
+.overviewContainer {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overview {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    width: 100%;
+    margin-top: 110px;
+    align-items: center;
+}
+
+.leftColumn {
+    flex: 2; /* ✅ Make left column bigger */
+    width: 70%; /* Adjust to make it even larger */
+}
+
+.rightColumn {
+    flex: 1.8; /* ✅ Reduce right column size */
+}
+
+
+.infoRow {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.label {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.value {
+    text-align: right;
+}
+
+.overviewTitle {
+    color: #0057FF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.overviewText {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ✅ Fixed spacing for multiple images */
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.container h1 {
+    width: 80%;
+    position: relative;
+    left: 110px;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container span {
+    color: #0057FF;
+}
+
+.image {
+    border-radius: 20px;
+}

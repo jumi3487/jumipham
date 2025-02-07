@@ -6,17 +6,15 @@ import ProjectCard from "../../components/ProjectCard";
 import Image from "next/image";
 import styles from "../../styles/Works.module.css";
 import Footer from "../../components/Footer";
+import Link from 'next/link';
 
 export default function Works() {
   const [selectedCategory, setSelectedCategory] = useState("Projects");
 
   const categories = ["Projects", "Graphic Designs", "Motion Graphics", "Others"];
 
-  // Correctly filter projects by category
-  const filteredProjects =
-    selectedCategory === "Projects"
-      ? projects
-      : projects.filter((project) => project.category === selectedCategory);
+  // ✅ Filtering logic (Only shows "Projects" first)
+  const filteredProjects = projects.filter((project) => project.category === selectedCategory);
 
   return (
 
@@ -52,14 +50,15 @@ export default function Works() {
           {/* Project Grid */}
           <section className={styles.cardContainer}>
             {filteredProjects.map((project) => (
+              <Link href={`/Works/${project.title}`} key={project.id} passHref>
               <ProjectCard
-              key={project.id}
-              image={project.image}
-              width={project.width}
-              height={project.height}
-              name={project.name}
-              date={project.date}
+                image={project.image}
+                width={project.width}
+                height={project.height}
+                name={project.name}
+                date={project.date}
               />
+            </Link>
             ))}
           </section>
         </div>
